@@ -1,0 +1,4 @@
+decode :  OP3TInject -i LOGO.bin -D
+encode :  OP3TInject -j fhd -i LOGO.bin
+
+dd if=/sdcard/Downloads/modified.logo.bin of=/dev/block/platform/soc/624000.ufshc/by-name/LOGO"
